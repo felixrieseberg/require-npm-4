@@ -1,6 +1,6 @@
 {
   "name": "require-npm-4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Requires npm-4 in all packages",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/felixrieseberg/require-npm-4.git"
   },
-  "engines" : {
-    "npm" : ">=4.0.0"
+  "engines": {
+    "npm": ">=4.0.0"
   },
   "keywords": [
     "npm4"
