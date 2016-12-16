@@ -1,0 +1,26 @@
+{
+  "name": "require-npm-4",
+  "version": "1.0.0",
+  "description": "Requires npm-4 in all packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node check.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixrieseberg/require-npm-4.git"
+  },
+  "engines" : {
+    "npm" : ">=4.0.0"
+  },
+  "keywords": [
+    "npm4"
+  ],
+  "author": "Felix Rieseberg <felix@felixrieseberg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixrieseberg/require-npm-4/issues"
+  },
+  "homepage": "https://github.com/felixrieseberg/require-npm-4#readme"
+}
